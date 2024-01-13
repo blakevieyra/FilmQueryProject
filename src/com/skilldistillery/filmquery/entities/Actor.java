@@ -11,7 +11,6 @@ public class Actor {
 	private List<Film> films;
 
 	public Actor() {
-
 	}
 
 	public Actor(String firstName, String lastName) {
@@ -66,8 +65,7 @@ public class Actor {
 
 	@Override
 	public String toString() {
-		return "Actor [id=" + actorId + ", firstName=" + firstName + ", lastName=" + lastName + ", films=" + films
-				+ "]";
+		return "" + firstName + " " + lastName + "";
 	}
 
 	@Override
